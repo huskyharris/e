@@ -1,0 +1,40 @@
+.maintenance-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.maintenance-page h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.maintenance-page p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.maintenance-page .logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.maintenance-page .contact-info {
+  font-size: 16px;
+  color: #777;
+}
+
+.maintenance-page .contact-info a {
+  color: #777;
+  text-decoration: none;
+}
+
+.maintenance-page .contact-info a:hover {
+  text-decoration: underline;
+}
